@@ -1,7 +1,7 @@
 @echo off
 echo This is a League of Legends language changer
 set /p comm=Enter server name(na/lan):
-echo All language options (input language all in lower case) & echo.Chinese TW & echo.Chinese China & echo.Japanese& echo.Korean& echo.English& echo.Turkish
+echo All language options (input language in the parenthesis)  & echo.Czech Republic(czech) & echo.Greece(Greek) & echo.Poland(polish) & echo.Romania(romanian) & echo.Hungary(hungarian) & echo.Germany(german) & echo.Spanish(spanish spain) & echo.Italy(italian) & echo.France(french) & echo.Mexico(spanish mexico) & echo.Brazil(portuguese) & echo.Malaysia(malay) & echo.Thailand(thai) & echo.Vietnam(vietnamese) & echo.Indonesia(indonesian) & echo.Malaysia(chinese malaysia) & echo.Chinese(chinese tw) & echo.Chinese(chinese china) & echo.Japan(japanese) & echo.Korea(korean) & echo.English(english) & echo.Turkey(turkish)
 set /p lang=What language do u wanna change it to:
 
 if %comm%==na set dir="C:\League of Legends\LeagueClient.exe" 
@@ -9,6 +9,22 @@ if %comm%==na set filename=Language Change NA
 if %comm%==lan set dir="D:\League of Legends LAN\LeagueClient.exe" 
 if %comm%==lan set filename=Language Change LAN
 
+if %lang%==czech set lang=cs_CZ
+if %lang%==greek set lang=el_GR
+if %lang%==polish set lang=pl_PL
+if %lang%==romanian set lang=ro_RO
+if %lang%==hungarian set lang=hu_HU
+if %lang%==german set lang=de_DE
+if %lang%==spanish spain set lang=es_ES
+if %lang%==italian set lang=it_IT
+if %lang%==french set lang=fr_FR
+if %lang%==spanish mexico set lang=es_MX
+if %lang%==portuguese set lang=pt_BR
+if %lang%==malay set lang=ms_MY
+if %lang%==thai set lang=th_TH
+if %lang%==vietnamese set lang=vn_VN
+if %lang%==indonesian set lang=id_ID
+if %lang%==chinese malaysia set lang=zh_MY
 if %lang%==chinese tw set lang=zh_TW
 if %lang%==chinese china set lang=zh_CN
 if %lang%==japanese set lang=ja_JP
