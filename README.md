@@ -21,9 +21,9 @@ Changes the language and VOs for League of Legends
 * **Spanish (Mexico)**
 * **Portuguese**
 * **Malay**
-* **Thai**
-* **Vietnamese**
-* **Indonesian**
+* **Thai**: No Thai VOs
+* **Vietnamese**: No Vietnamese VOs
+* **Indonesian**: No Indonesian VOs
 
 And more to come :)
 
