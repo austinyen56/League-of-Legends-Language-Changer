@@ -33,6 +33,6 @@ Right click and edit the file
 At the line ```if %comm%==na set dir="C:\League of Legends\LeagueClient.exe" ``` replace and change it to your directory for LeagueClient.exe
 If you have additional servers, change it below as well.
 
-After running the bat file, run the generated shortcut and feel free to delete it after the game launches
+After running the bat file, run the generated shortcut and feel free to delete it after the game launches\n
 You are now able to launch league in your desired language through any method
 *You might have to redo it again for every update tho
