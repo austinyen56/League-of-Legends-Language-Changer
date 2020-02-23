@@ -1,7 +1,7 @@
 @echo off
 echo This is a League of Legends language changer
 set /p comm=Enter server name(na/lan):
-echo All language options (input language in the parenthesis)  & echo.Czech Republic(czech) & echo.Greece(Greek) & echo.Poland(polish) & echo.Romania(romanian) & echo.Hungary(hungarian) & echo.Germany(german) & echo.Spanish(spanish spain) & echo.Italy(italian) & echo.France(french) & echo.Mexico(spanish mexico) & echo.Brazil(portuguese) & echo.Malaysia(malay) & echo.Thailand(thai) & echo.Vietnam(vietnamese) & echo.Indonesia(indonesian) & echo.Malaysia(chinese malaysia) & echo.Chinese(chinese tw) & echo.Chinese(chinese china) & echo.Japan(japanese) & echo.Korea(korean) & echo.English(english) & echo.Turkey(turkish)
+echo All language options (input language in the parenthesis)  & echo.Czech Republic(czech) & echo.Greece(Greek) & echo.Poland(polish) & echo.Romania(romanian) & echo.Hungary(hungarian) & echo.Germany(german) & echo.Spanish(spanish_spain) & echo.Italy(italian) & echo.France(french) & echo.Mexico(spanish_mexico) & echo.Brazil(portuguese) & echo.Malaysia(malay) & echo.Thailand(thai) & echo.Vietnam(vietnamese) & echo.Indonesia(indonesian) & echo.Malaysia(chinese_malaysia) & echo.Chinese(chinese_tw) & echo.Chinese(chinese_china) & echo.Japan(japanese) & echo.Korea(korean) & echo.English(english) & echo.Turkey(turkish)
 set /p lang=What language do u wanna change it to:
 
 if %comm%==na set dir="C:\League of Legends\LeagueClient.exe" 
@@ -15,18 +15,18 @@ if %lang%==polish set lang=pl_PL
 if %lang%==romanian set lang=ro_RO
 if %lang%==hungarian set lang=hu_HU
 if %lang%==german set lang=de_DE
-if %lang%==spanish spain set lang=es_ES
+if %lang%==spanish_spain set lang=es_ES
 if %lang%==italian set lang=it_IT
 if %lang%==french set lang=fr_FR
-if %lang%==spanish mexico set lang=es_MX
+if %lang%==spanish_mexico set lang=es_MX
 if %lang%==portuguese set lang=pt_BR
 if %lang%==malay set lang=ms_MY
 if %lang%==thai set lang=th_TH
 if %lang%==vietnamese set lang=vn_VN
 if %lang%==indonesian set lang=id_ID
-if %lang%==chinese malaysia set lang=zh_MY
-if %lang%==chinese tw set lang=zh_TW
-if %lang%==chinese china set lang=zh_CN
+if %lang%==chinese_malaysia set lang=zh_MY
+if %lang%==chinese_tw set lang=zh_TW
+if %lang%==chinese_china set lang=zh_CN
 if %lang%==japanese set lang=ja_JP
 if %lang%==korean set lang=ko_KR
 if %lang%==english set lang=en_US
