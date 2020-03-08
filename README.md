@@ -35,4 +35,5 @@ If you have additional servers, change it below as well.
 
 After running the bat file, run the generated shortcut and feel free to delete it after the game launches  
 You are now able to launch league in your desired language through any method  
-*You might have to redo it again for every update tho
+*You might have to redo it again for every update tho  
+Sources: https://developer.riotgames.com/docs/lol
