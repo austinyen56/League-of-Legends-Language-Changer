@@ -1,10 +1,10 @@
 @echo off
 echo League of Legends Language Changer v1.0 by Austin56
 set /p comm=Enter server name(na/lan):
-echo All language options (input language in the parenthesis)  & echo.Czech Republic(czech) & echo.Greece(Greek) & echo.Poland(polish) & echo.Romania(romanian) & echo.Hungary(hungarian) & echo.Germany(german) & echo.Spanish(spanish_spain) & echo.Italy(italian) & echo.France(french) & echo.Mexico(spanish_mexico) & echo.Brazil(portuguese) & echo.Malaysia(malay) & echo.Thailand(thai) & echo.Vietnam(vietnamese) & echo.Indonesia(indonesian) & echo.Malaysia(chinese_malaysia) & echo.Chinese(chinese_tw) & echo.Chinese(chinese_china) & echo.Japan(japanese) & echo.Korea(korean) & echo.English(english) & echo.Turkey(turkish)
+echo All language options (input language in the parenthesis)  & echo.Czech Republic(czech) & echo.Greece(greek) & echo.Poland(polish) & echo.Romania(romanian) & echo.Hungary(hungarian) & echo.Germany(german) & echo.Spanish(spanish_spain) & echo.Italy(italian) & echo.France(french) & echo.Mexico(spanish_mexico) & echo.Brazil(portuguese) & echo.Malaysia(malay) & echo.Thailand(thai) & echo.Vietnam(vietnamese) & echo.Indonesia(indonesian) & echo.Malaysia(chinese_malaysia) & echo.Chinese(chinese_tw) & echo.Chinese(chinese_china) & echo.Japan(japanese) & echo.Korea(korean) & echo.English(english) & echo.Turkey(turkish) & echo.Russian(russian)
 set /p lang=What language do u wanna change it to:
 
-if %comm%==na set dir="Z:\League of Legends\LeagueClient.exe" 
+if %comm%==na set dir="C:\League of Legends\LeagueClient.exe" 
 if %comm%==na set filename=Language Change NA
 if %comm%==lan set dir="D:\League of Legends LAN\LeagueClient.exe" 
 if %comm%==lan set filename=Language Change LAN
@@ -31,6 +31,7 @@ if %lang%==japanese set lang=ja_JP
 if %lang%==korean set lang=ko_KR
 if %lang%==english set lang=en_US
 if %lang%==turkish set lang=tr_TR
+if %lang%==russian set lang=ru_RU
 
 set SCRIPT="%TEMP%\%RANDOM%-%RANDOM%-%RANDOM%-%RANDOM%.vbs"
 echo Set oWS = WScript.CreateObject("WScript.Shell") >> %SCRIPT%
