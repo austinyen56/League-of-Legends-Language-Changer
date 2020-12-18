@@ -24,6 +24,7 @@ Changes the language and VOs for League of Legends
 * **Thai**: No Thai VOs
 * **Vietnamese**: No Vietnamese VOs
 * **Indonesian**: No Indonesian VOs
+* **Russian**
 
 And more to come :)
 
