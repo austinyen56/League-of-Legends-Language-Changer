@@ -11,7 +11,7 @@ if %comm%==lan set dir="C:\League of Legends\LeagueClient.exe"
 if %comm%==lan set filename=Language Change LAN
 if %comm%==brazil set dir="C:\League of Legends\LeagueClient.exe" 
 if %comm%==brazil set filename=Language Change BR
-if %comm%==enue set dir="C:\League of Legends\LeagueClient.exe" 
+if %comm%==eune set dir="C:\League of Legends\LeagueClient.exe" 
 if %comm%==eune set filename=Language Change EUNE
 if %comm%==euw set dir="C:\League of Legends\LeagueClient.exe" 
 if %comm%==euw set filename=Language Change EUW
