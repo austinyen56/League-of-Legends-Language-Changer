@@ -1,4 +1,6 @@
 # League of Legends Language Changer
+![language](https://img.shields.io/badge/language-batchfile-informational) [![ytlink](https://img.shields.io/youtube/views/Lo4IM8JmlTg?label=Tutorial%20Video&style=social)](https://www.youtube.com/watch?v=Lo4IM8JmlTg&ab_channel=Austin56)
+
 Changes the language and VOs for League of Legends
 
 # Currently Supported Languages
