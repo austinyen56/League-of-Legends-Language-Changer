@@ -1,8 +1,24 @@
 @echo off
-echo League of Legends Language Changer v1.2 by Austin56
-set /p comm=Enter server name(na/lan/brazil/eune/euw/las/oce/russia/turkey/japan):
+echo League of Legends Language Changer v1.3 by Austin56
+echo .
+
+:serverloop
+    set /p comm=Enter server name(na/lan/brazil/eune/euw/las/oce/russia/turkey/japan):
+    for %%s in ("na" "lan" "brazil" "eune" "euw" "las" "oce" "russia" "turkey" "japan") do if /I "%comm%" == "%%~s" goto :next
+    echo Invalid server name, please try again.
+    echo .
+goto :serverloop
+
+:next
+echo .
 echo All language options (input language in the parenthesis)  & echo.Czech Republic(czech) & echo.Greece(greek) & echo.Poland(polish) & echo.Romania(romanian) & echo.Hungary(hungarian) & echo.Germany(german) & echo.Spanish(spanish_spain) & echo.Italy(italian) & echo.France(french) & echo.Mexico(spanish_mexico) & echo.Brazil(portuguese) & echo.Malaysia(malay) & echo.Thailand(thai) & echo.Vietnam(vietnamese) & echo.Indonesia(indonesian) & echo.Malaysia(chinese_malaysia) & echo.Chinese(chinese_tw) & echo.Chinese(chinese_china) & echo.Japan(japanese) & echo.Korea(korean) & echo.English(english) & echo.Turkey(turkish) & echo.Russian(russian)
-set /p lang=What language do u wanna change it to:
+:langloop
+    echo .
+    set /p lang=What language do u wanna change it to:
+    for %%l in ("czech" "greek" "polish" "romanian" "hungarian" "german" "spanish_spain" "italian" "french" "spanish_mexico" "portuguese" "malay" "thai" "vietnamese" "indonesian" "chinese_malaysia" "chinese_tw" "chinese_china" "japanese" "korean" "english" "turkish" "russian") do if /I "%lang%" == "%%~l" goto :next2
+    echo Invalid language name, please try again.
+goto :langloop
+:next2
 
 :: Change the directory (dir = "this thing") if you located the client in a different place
 if %comm%==na set dir="C:\League of Legends\LeagueClient.exe" 
@@ -60,5 +76,6 @@ echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
 del %SCRIPT%
 
+echo .
 echo A new icon should appear on the desktop
 pause
