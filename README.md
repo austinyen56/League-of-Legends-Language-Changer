@@ -29,12 +29,15 @@ Changes the language and VOs for League of Legends
 * **Russian**
 
 And more to come :)
+** Did not include duplicate languages such as Philippines (English) or Singapore (English) but can be included upon request.
 
 # How to use this file
 Download the bat file
-Right click and edit the file
-At the line ```if %comm%==na set dir="C:\League of Legends\LeagueClient.exe" ``` replace and change it to your directory for LeagueClient.exe  
-If you have additional servers, change it below as well.
+Right click and edit the file replace and change it to your directory for LeagueClient.exe 
+```set dir="C:\League of Legends\LeagueClient.exe" ```
+
+** If you still have multiple instances of League Client (Which is unecessary now due to the new Riot Client)
+Replace ```if %comm%==na set dir="C:\League of Legends\LeagueClient.exe" ```  instead and the other directory of the other servers.
 
 After running the bat file, run the generated shortcut and feel free to delete it after the game launches  
 You are now able to launch league in your desired language through any method  
