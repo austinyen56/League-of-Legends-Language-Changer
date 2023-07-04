@@ -28,7 +28,8 @@ Changes the language and VOs for League of Legends
 * **Indonesian**: No Indonesian VOs
 * **Russian**
 
-And more to come :)
+... And more to come :)
+
 ** Did not include duplicate languages such as Philippines (English) or Singapore (English) but can be included upon request.
 
 # How to use this file
