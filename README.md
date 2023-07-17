@@ -35,7 +35,7 @@ Changes the language and VOs for League of Legends
 # How to use this file
 Download the bat file
 Right click and edit the file replace and change it to your directory for LeagueClient.exe 
-```set dir="C:\League of Legends\LeagueClient.exe" ```
+```set dir="C:\Riot Games\League of Legends\LeagueClient.exe" ```
 
 ** If you still have multiple instances of League Client (Which is unecessary now due to the new Riot Client)
 Replace ```if %comm%==na set dir="C:\League of Legends\LeagueClient.exe" ```  instead and the other directory of the other servers.
