@@ -1,5 +1,5 @@
 @echo off
-echo League of Legends Language Changer v2 by Austin56
+echo League of Legends Language Changer v2.1 by Austin56
 echo.
 
 echo All language options (input language in the parenthesis) & echo.Brazil (portuguese) & echo.Chinese (chinese_china) & echo.Chinese (chinese_tw) & echo.Czech Republic (czech) & echo.English (english) & echo.France (french) & echo.Germany (german) & echo.Greece (greek) & echo.Hungary (hungarian) & echo.Indonesia (indonesian) & echo.Italy (italian) & echo.Japan (japanese) & echo.Korea (korean) & echo.Malaysia (chinese_malaysia) & echo.Malaysia (malay) & echo.Mexico (spanish_mexico) & echo.Poland (polish) & echo.Romania (romanian) & echo.Russian (russian) & echo.Spanish (spanish_spain) & echo.Thailand (thai) & echo.Turkey (turkish) & echo.Vietnam (vietnamese)
@@ -12,8 +12,8 @@ goto :langloop
 :next2
 
 :: Change the directory (dir = "change this directory") if you located the client in a different place
-set dir="C:\Riot Games\League of Legends\LeagueClient.exe"
-set filename= LoL Language Changer
+set dir="C:\League of Legends\LeagueClient.exe" 
+set filename=LoL Language Changer
 
 if %lang%==czech set lang=cs_CZ
 if %lang%==greek set lang=el_GR
@@ -51,4 +51,8 @@ del %SCRIPT%
 
 echo.
 echo A new icon should appear on the desktop
-pause
+echo Launching League in %lang% ...
+start "" "%USERPROFILE%\Desktop\%filename%.lnk"
+timeout /t 1 /nobreak >nul
+
+exit
