@@ -12,7 +12,7 @@ goto :langloop
 :next2
 
 :: Change the directory (dir = "change this directory") if you located the client in a different place
-set dir="C:\League of Legends\LeagueClient.exe" 
+set dir="C:\Riot Games\League of Legends\LeagueClient.exe"
 set filename=LoL Language Changer
 
 if %lang%==czech set lang=cs_CZ
